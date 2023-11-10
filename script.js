@@ -231,7 +231,6 @@ function removeEdit(e) {
     e.target.tagName === 'UL' ||
     e.target.tagName === 'IMG' ||
     e.target.tagName === 'H1' ||
-    e.target.tagName === 'INPUT' ||
     e.target.tagName === 'BODY'
   ) {
     document
